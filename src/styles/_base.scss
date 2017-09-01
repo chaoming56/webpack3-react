@@ -1,0 +1,21 @@
+/*
+Application Settings Go Here
+------------------------------------
+This file acts as a bundler for all variables/mixins/themes, so they
+can easily be swapped out without `core.scss` ever having to know.
+
+For example:
+
+@import './variables/colors';
+@import './variables/components';
+@import './themes/default';
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: .24rem;
+}
